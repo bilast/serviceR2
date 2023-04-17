@@ -22,7 +22,7 @@ function restartDocker() {
   
   console.log("Restarting Docker...");
   sdk.auth('rnd_MhhagE59sGhAMhVXxPceeFLBN23N');
-  sdk.createDeploy({clearCache: 'clear'}, {serviceId: 'srv-cgucmuiut4mcfrhsq040'})
+  sdk.createDeploy({clearCache: 'clear'}, {serviceId: 'srv-cgudlvqut4mcfri2c5pg'})
   .then(({ data }) => console.log(data))
   .catch(err => console.error(err));
 }
