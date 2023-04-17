@@ -29,8 +29,8 @@ function restartDocker() {
 
 function timer() {
   seconds = seconds + 1; // remove 'let' keyword here
-  if (seconds <= 450) {
-    console.log(seconds, "s /450s to restart Docker");
+  if (seconds <= 550) {
+    console.log(seconds, "s / 550 s to restart Docker");
     setTimeout(timer, 1000);
   }
   else {
